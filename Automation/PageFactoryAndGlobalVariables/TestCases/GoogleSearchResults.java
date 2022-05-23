@@ -43,7 +43,7 @@ public class GoogleSearchResults {
 		gh.Search().sendKeys(pros.getProperty("Searchstring"));
 		
 //Created Script by Madhu Priya
-		
+//Hi Created by Phani New Script		
 		
 	}
 	
