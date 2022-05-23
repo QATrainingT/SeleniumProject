@@ -42,6 +42,7 @@ public class GoogleSearchResults {
 		System.out.println(pros.getProperty("Searchstring"));
 		gh.Search().sendKeys(pros.getProperty("Searchstring"));
 		
+//Created Script by Madhu Priya
 		
 		
 	}
