@@ -36,7 +36,7 @@ public class GoogleSearchResults {
 		
 		driver.get("https://www.google.com/");
 		
-		
+		//Hai How are you
 		//Here constructor Method will be called in GoogleHomePage, so that it knows that needs to run in which Driver
 		GoogleHomePage gh = new GoogleHomePage(driver);
 		System.out.println(pros.getProperty("Searchstring"));
