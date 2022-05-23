@@ -1,0 +1,35 @@
+Constructor:
+Contructor is Called when ever an Object is created.
+Will not return values and constructor name should be same as class name.
+Compiler will call Implicit constructor if you have not defined constructor
+If we want initiate the objects or defined variables , we will create constructor
+So that no need to call , and all variables will be called automatically.
+
+super:
+Variable and Method:
+--------
+Super()- will refer to parent Class Variable when the same name displayed in Child also.
+(First preference local)
+If need to call the Parent constructor the insert Super() in first line in child constructor
+
+
+This:
+If one of the method required the Global variable along the local variable
+this refers to the global variable and lies in class level.
+
+A static method belongs to the class and a non-static method belongs to an object of a class.
+Static methods are useful if you have only one instance where you're going to use the method
+Sr. No.	Key	Static	Non-Static
+1	Access	A static method can access only static members and can not access non-static members.	
+A non-static method can access both static as well as non-static members.
+2	Binding	
+    Static method uses complie time binding or early binding.	
+    Non-static method uses run time binding or dynamic binding.
+3	Overriding	
+    A static method cannot be overridden being compile time binding.
+	A non-static method can be overridden being dynamic binding.
+4	Memory allocation	
+    Static method occupies less space and memory allocation happens once.	
+    A non-static method may occupy more space. Memory allocation happens when method is invoked and memory is deallocated once method is executed completely.
+5	Keyword	
+    A static method is declared using static keyword.	A normal method is not required to have any special keyword.

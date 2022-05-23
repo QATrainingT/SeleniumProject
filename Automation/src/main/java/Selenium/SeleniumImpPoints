@@ -1,0 +1,16 @@
+8 To 14   11,14 Completed   9,10 and 13 Pending  (Morning Java)
+1.To differentiate using Index we need to use (//div[@class='rowTripPlanner'])[2], means with ()
+2.//div[@id='glsctl00_mainContent_ddl_destinationStation1_CTNR'] //a[@text='Gwalior (GWL)']
+    (Parent)                                                          (child)
+3.Regular expression for CssSelector
+By.cssSelector("input[id*='SeniorCitizenDiscount']"))
+ctl00_mainContent_chk_SeniorCitizenDiscount
+
+4.SSL Secure Sockets Layer certificate
+5.Ctrl+Shift and F  for Selenium Code Alignment
+6.Class name first should start with CAP Letters, and variable Name should start with Small Letter ex:mousePad
+7.Debug Code:
+8.Implicit wait will continue if object available within 5 Seconds.
+9.JavaScript DOM can extract hidden elements
+  Because selenium cannot identify the hidden elements.(Ajax Implementation).
+  document.getelementbyTagName

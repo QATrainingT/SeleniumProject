@@ -1,0 +1,4 @@
+Steps To follow to Run only Failed Test cases
+After the first run of an automated test run. Right click on Project – Click on Refresh.
+A folder will be generated named “test-output” folder. Inside “test-output” folder, you could find “testng-failed. xml”
+Run “testng-failed. xml” to execute the failed test cases again.

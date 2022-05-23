@@ -1,0 +1,48 @@
+Is a Collection of Interfaces and classes which helps in storing and Processing the data efficiently.
+
+List will implement List Interface
+---
+A List is ordered collection (sometimes called a sequence).Lists may contains
+duplicate elements.
+ArrayList-->Have Dynamic size where we can increase by adding and decrease by removing 
+// can accept duplicate values //ArraList,LinkedList,vector- Implementing List interface
+//array have fixed size where as arraylist can grow dynamicaly 
+//you can access and insert any value in any index 
+//Controlling the Order stored
+LinkedList
+Vector
+
+
+Set will implement Set Interface
+---
+A Set is a Collection that cannot duplicate elements 
+However it makes no Guarantees concerning order of iteration.
+// cannot have accept duplicate values
+// No Guarantee the elements stored in sequential Order and store in Random Order
+HashSet
+linkedHashSet
+TreeSet
+
+HashMap and HashTable
+Key Value Pair
+HashMap: Multiple programs accessing the hash map thread came to access Not thread safe and non synchronised, 
+allows Null keys and Null Values
+Uses Iterator Interfaces
+HashTable: Thread safe means operation will be performed when other thread complete the Program and synchronised,
+not allowed Null keys and Null values
+Uses enumeration Interfaces
+
+HashMap<Integer, String> hm = new HashMap<Integer, String>();
+		hm.put(1, "Anil");
+		hm.put(2, "Gottipati");
+		hm.put(3, "Kumar");
+		System.out.println(hm.get(1));
+		
+		Set sn=hm.entrySet();
+		Iterator a=sn.iterator();
+		while(a.hasNext())
+		{
+			Map.Entry mp=(Map.Entry)a.next();
+			System.out.println(mp.getKey());
+			System.out.println(mp.getValue());
+		}
